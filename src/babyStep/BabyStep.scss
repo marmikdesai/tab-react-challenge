@@ -1,0 +1,13 @@
+.BabyStep {
+  padding-bottom: 50px;
+
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.step__holder {
+  overflow: hidden;
+}

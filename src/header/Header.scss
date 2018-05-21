@@ -1,0 +1,26 @@
+.Header {
+  width: 980px;
+  height: 275px;
+  margin-bottom: 60px;
+}
+#headerText {
+  max-width: 460px;
+  position: absolute;
+  right: 100px;
+  top: 40px;
+  text-align: right;
+
+  h2 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+  }
+}

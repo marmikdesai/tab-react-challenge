@@ -1,0 +1,21 @@
+.sideBar {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #ececee;
+
+  li {
+    width: 300px;
+    line-height: 60px;
+    font-size: 18px;
+    text-align: center;
+    color: #9ba0a4;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+
+    &.active {
+      color: #36abe1;
+    }
+  }
+}
